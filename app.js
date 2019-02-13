@@ -7,6 +7,10 @@
 // 6 - Remove transition
 
 window.addEventListener("keydown", function(e) {
+ if (e.keyCode == 32 ) {
+                var sounds = document.getElementsByTagName('audio');
+                for(i=0; i<sounds.length; i++) sounds[i].pause();
+}	
  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
  if(!audio) return;
