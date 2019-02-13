@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("neon.jpg"); bottom center;
+  background: url("giphy.gif"); bottom center;
   background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body,html {
 }
 
 .key {
-  border: .1rem solid orange;
+  border: .3rem solid black;
   border-radius: .9rem;
   margin: 2rem;
   font-size: 1.5rem;
@@ -27,15 +27,15 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: yellow;
-  background: rgba(200,20,0,0.4);
+  color: rgb(255,20,147);
   text-shadow: 0  1.4px red;
 }
 
 .playing {
   transform: scale(1.2);
-  border-color: yellow;
-  box-shadow: 0 0 10rem #ffc600;
+  transform: translate(-20%, -20%);
+  border-color: rgba(255,20,147);
+  box-shadow: 0 0 10rem red;
 }
 
 kbd {
