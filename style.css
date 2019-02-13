@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  background: url("neon.jpg"); bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .1rem solid orange;
+  border-radius: .9rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+  padding: 2rem .9rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: yellow;
+  background: rgba(200,20,0,0.4);
+  text-shadow: 0  1.4px red;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: yellow;
+  box-shadow: 0 0 10rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #FFB400;
+}
